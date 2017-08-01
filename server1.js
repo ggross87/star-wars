@@ -86,5 +86,5 @@ app.post("/api/new", function(req, res) {
 // Starts the server to begin listening
 // =============================================================
 app.listen(port, function() {
-  console.log("App listening on port " + PORT);
+  console.log("App listening on port " + port);
 });
